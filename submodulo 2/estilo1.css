@@ -1,0 +1,94 @@
+
+.contenedor{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: repeat(6,minmax(100px,1fr));
+    grid-template-rows: repeat(14,minmax(50px,1fr));
+    gap: 2px;
+   
+}
+.encabezado{
+    
+     grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: repeat(6,minmax(50px,1fr));
+    grid-template-rows: 1fr;
+
+}
+.a1,.a2,.a3,.a4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a1{
+   background-color:darkcyan ;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.a2{
+    background-color: darkcyan;
+    border-radius: 10px;
+}
+.a3{
+   background-color: darkcyan;
+    border-radius: 10px;
+}
+.a4{
+background-color: darkcyan;
+    border-radius: 10px;
+}
+.a1:hover{
+    background-color: blanchedalmond;
+}
+.a2:hover{
+background-color: blanchedalmond;
+}
+.a3:hover{
+    background-color: blanchedalmond;
+}
+.a4:hover{
+    background-color: blanchedalmond;
+}
+.cuerpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   grid-column-start: 1;
+   grid-column-end: 7;
+   grid-row-start: 2;
+   grid-row-end: 11;
+}
+.contenedor2{
+    display: grid;
+grid-template-columns: repeat(7,minmax(100px,1fr));
+grid-auto-rows: minmax(50px,1fr);
+background-color: rgb(133, 109, 131);
+}
+.Encabezado1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+   background-color: rgb(154, 89, 214);
+}
+.Encabezado2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+   background-color: rgb(64, 64, 161);
+}
+.Encabezado3{
+    grid-column-start: 5;
+    grid-column-end: 8;
+    background-color: rgb(27, 62, 102);
+}
+
+.pie{
+   
+    grid-column-start: 1;
+    grid-column-end: 14;
+}
+a{
+    text-decoration: none;
+    
+}
